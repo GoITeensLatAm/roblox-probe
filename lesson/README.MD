@@ -5,13 +5,13 @@
 ## Se abre el área de trabajo principal
 <img src = "img/RobloxStudio2.jpg">
 
-## Seleccionamos la opción Parte y la subopción Bloque
+## Seleccionamos la opción Parte y la subopción Block
 <img src = "img/RobloxStudio3.jpg">
 
-## Se creará un bloque rectangular 
+## Se creará un block rectangular 
 <img src = "img/RobloxStudio4.jpg">
 
-## En el bloque del menú Explorer, haz clic en el signo de más (+)
+## En el block del menú Explorer, haz clic en el signo de más (+)
 <img src = "img/RobloxStudio5.jpg">
 
 ## Y seleccionaremos la opción Script

@@ -29,18 +29,18 @@ element.BrickColor = BrickColor.new("Dark blue")
 ```
 <img src = "img/RobloxStudio8.jpg">
 
-## Veremos el resultado: el bloque se vuelve de color azul oscuro después de la ejecución 
+## Veremos el resultado: el block se vuelve de color azul oscuro después de la ejecución 
 
 <img src = "img/RobloxStudio9.jpg">
 
-## Agregaremos un efecto de fuego al bloque "fire"
-Para hacerlo, presionamos el signo '+' junto al nombre del bloque (Part).
+## Agregaremos un efecto de fuego al block "fire"
+Para hacerlo, presionamos el signo '+' junto al nombre del block (Part).
 <img src = "img/RobloxStudio10.jpg">
 
 Y mediante la búsqueda, encontraremos el efecto de fuego (fire)
 <img src = "img/RobloxStudio11.jpg">
 
-El fuego, como propiedad, aparecerá en el bloque seleccionado
+El fuego, como propiedad, aparecerá en el block seleccionado
 <img src = "img/RobloxStudio12.jpg">
 
 ## Añadiremos código que cambiará dinámicamente el efecto
@@ -57,10 +57,10 @@ wait(10)
 stopFire()
 ```
 <img src = "img/RobloxStudio13.jpg">
-Este código cambiará el efecto del bloque de 'fuego' (fire) a 'emisor de partículas' (ParticleEmitter) después de 10 segundos desde su inicio
+Este código cambiará el efecto del block de 'fuego' (fire) a 'emisor de partículas' (ParticleEmitter) después de 10 segundos desde su inicio
 <img src = "img/change_property.gif">  
 
-## Añadiremos la implementación de la desaparición del bloque
+## Añadiremos la implementación de la desaparición del block
 Para hacer esto, crearemos la función destroyBlock y la llamaremos después de 5 segundos de la desaparición del efecto "emisor de partículas"
 ```lua
 local element = script.Parent
@@ -84,7 +84,7 @@ destroyBlock()
 obtendremos el resultado:
 <img src = "img/effects.gif">
 
-## Añadiremos una característica al bloque: un cambio cíclico de color
+## Añadiremos una característica al block: un cambio cíclico de color
 ```lua
 while true do
 	element.BrickColor = BrickColor.new(0.9,0.6,0.2)
@@ -104,7 +104,7 @@ Junto al punto 'Workspace', haremos clic en "+"
 Elegiremos la opción Script
 <img src = "img/RobloxStudio17.jpg">
 
-En el nuevo bloque Script, eliminaremos el código `print("Hello world!")` (que está allí por defecto) y agregaremos el código para generar puntos
+En el nuevo block Script, eliminaremos el código `print("Hello world!")` (que está allí por defecto) y agregaremos el código para generar puntos
 
 ```lua
 local function onPlayerJoin(player)
@@ -122,17 +122,17 @@ end
 game.Players.PlayerAdded:Connect(onPlayerJoin)
 ```
 <img src = "img/RobloxStudio18.jpg">
-## Añadiremos un nuevo bloque
+## Añadiremos un nuevo block
 Seleccionamos el botón Block (1) en la barra de herramientas. En la lista desplegable, elegimos Part (2). Se creará un nuevo block (3)
 
 <img src = "img/RobloxStudio19.jpg">
-En el bloque Explorer, junto al elemento de menú Part que corresponde al bloque creado, haremos clic en el símbolo '+'
+En el block Explorer, junto al elemento de menú Part que corresponde al block creado, haremos clic en el símbolo '+'
 <img src = "img/RobloxStudio20.jpg">
 En el menú que aparecerá, seleccionaremos el punto Script
 
 <img src = "img/RobloxStudio21.jpg">
 
-En lugar del código que está en este bloque por defecto (`print("Hello world!")`), agregaremos un código para obtener puntos según el color del bloque
+En lugar del código que está en este block por defecto (`print("Hello world!")`), agregaremos un código para obtener puntos según el color del block
 ```lua
 local pointPart = script.Parent
 
@@ -190,9 +190,9 @@ while true do
 end
 ```
 <img src = "img/RobloxStudio22.jpg">
-Duplique el bloque (haciendo clic con el botón derecho del ratón y seleccionando 'Duplicate')
+Duplique el block (haciendo clic con el botón derecho del ratón y seleccionando 'Duplicate')
 <img src = "img/RobloxStudio23.jpg">
-Mueva el bloque duplicado 
+Mueva el block duplicado 
 <img src = "img/duplicate.gif">
 Repite tres veces
 

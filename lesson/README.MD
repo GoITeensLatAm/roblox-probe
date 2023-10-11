@@ -1,27 +1,27 @@
-# Пробне заняття напрямок "Розробка ігор"
-## При запуску RobloxStudio обиаємо шаблон "Classic Beseplate"
+# Clase de prueba en la dirección "Desarrollo de juegos"
+## Al iniciar RobloxStudio, selecciona la plantilla "Classic Beseplate".
 <img src = "img/RobloxStudio1.jpg">
 
-## Відкривається основне робоче поле
+## Se abre el área de trabajo principal
 <img src = "img/RobloxStudio2.jpg">
 
-## Обираємо пункт Part і підпункт Block
+## Seleccionamos la opción Parte y la subopción Bloque
 <img src = "img/RobloxStudio3.jpg">
 
-## Буде створено прямокутний блок 
+## Se creará un bloque rectangular 
 <img src = "img/RobloxStudio4.jpg">
 
-## В блоці меню Explorer клікнемо на плюсик 
+## En el bloque del menú Explorer, haz clic en el signo de más (+)
 <img src = "img/RobloxStudio5.jpg">
 
-## І оберемо пункт Script
+## Y seleccionaremos la opción Script
 <img src = "img/script.jpg">
 
-## Нажимаємо на створений елемент Script та видалимо код print("Hello world!")
+## Pulsamos sobre el elemento Script creado y eliminamos el código print("Hello world!")
 
 <img src = "img/RobloxStudio7.jpg">
 
-## Вставимо код та запустимо код
+## Peguemos el código y ejecutemos el código
 
 ```lua
 element = script.Parent
@@ -29,21 +29,21 @@ element.BrickColor = BrickColor.new("Dark blue")
 ```
 <img src = "img/RobloxStudio8.jpg">
 
-## Побачемо результат: блок після запуску стає темно синього (dark blue) кольору.
+## Veremos el resultado: el bloque se vuelve de color azul oscuro después de la ejecución 
 
 <img src = "img/RobloxStudio9.jpg">
 
-## До блоку Part додамо ефект вогню (fire)
-Для цього натиснемо "+" біля назви блоку (Part) 
+## Agregaremos un efecto de fuego al bloque "fire"
+Para hacerlo, presionamos el signo '+' junto al nombre del bloque (Part).
 <img src = "img/RobloxStudio10.jpg">
 
-Та за допомогою пошуку знайдемо ефект вогню (fire)
+Y mediante la búsqueda, encontraremos el efecto de fuego (fire)
 <img src = "img/RobloxStudio11.jpg">
 
-Вогонь, як властивість, з'яветься на обраному блоці
+El fuego, como propiedad, aparecerá en el bloque seleccionado
 <img src = "img/RobloxStudio12.jpg">
 
-## Додамо код, що буде динамічно змінювати ефект
+## Añadiremos código que cambiará dinámicamente el efecto
 ```lua
 local element = script.Parent
 
@@ -57,11 +57,11 @@ wait(10)
 stopFire()
 ```
 <img src = "img/RobloxStudio13.jpg">
-Даний код за 10 секунд після запуску змінить ефект блоку з вогню (fire) на "випромінювач частинок" (ParticleEmitter)
+Este código cambiará el efecto del bloque de 'fuego' (fire) a 'emisor de partículas' (ParticleEmitter) después de 10 segundos desde su inicio
 <img src = "img/change_property.gif">  
 
-## Додамо реалізацію зникнення блоку
-Для цього створемо функцію destroyBlock і викличемо її через 5 секунд після зникнення ефекту "випромінювача частинок"
+## Añadiremos la implementación de la desaparición del bloque
+Para hacer esto, crearemos la función destroyBlock y la llamaremos después de 5 segundos de la desaparición del efecto "emisor de partículas"
 ```lua
 local element = script.Parent
 
@@ -81,10 +81,10 @@ wait(5)
 destroyBlock()
 ```  
 <img src = "img/RobloxStudio14.jpg">
-отримаємо результат: 
+obtendremos el resultado:
 <img src = "img/effects.gif">
 
-## Додамо особилвість блоку - циклічну зміну кольору.
+## Añadiremos una característica al bloque: un cambio cíclico de color
 ```lua
 while true do
 	element.BrickColor = BrickColor.new(0.9,0.6,0.2)
@@ -95,16 +95,16 @@ end
 
 ```
 <img src = "img/RobloxStudio15.jpg">
-Отримаємо результат  
+Obtendremos el resultado  
 <img src = "img/change_color.gif">
 
 ## Додамо функціональність балів
-біля пункту Workspace натиснемо "+"
+Junto al punto 'Workspace', haremos clic en "+"
 <img src = "img/RobloxStudio16.jpg">  
-Оберемо пункт Script
+Elegiremos la opción Script
 <img src = "img/RobloxStudio17.jpg">
 
-В новоствореному блоці Script видалемо код `print("Hello world!")` (він там є за замовчуванням). І додамо код формвання балів:
+En el nuevo bloque Script, eliminaremos el código `print("Hello world!")` (que está allí por defecto) y agregaremos el código para generar puntos
 
 ```lua
 local function onPlayerJoin(player)
@@ -122,17 +122,17 @@ end
 game.Players.PlayerAdded:Connect(onPlayerJoin)
 ```
 <img src = "img/RobloxStudio18.jpg">
-## Додамо новий блок
-Оберемо кнопку Block (1) на панелі інструментів. У випадаючому списку оберемо Part (2). Буде створено новий блок (3)
+## Añadiremos un nuevo bloque
+Seleccionamos el botón Block (1) en la barra de herramientas. En la lista desplegable, elegimos Part (2). Se creará un nuevo block (3)
 
 <img src = "img/RobloxStudio19.jpg">
-В блоці Explorer біля пункту меню Part, що відповідає створеном блоку натиснемо елемент +
+En el bloque Explorer, junto al elemento de menú Part que corresponde al bloque creado, haremos clic en el símbolo '+'
 <img src = "img/RobloxStudio20.jpg">
-У меню, що з'явиться оберемо пункт Script
+En el menú que aparecerá, seleccionaremos el punto Script
 
 <img src = "img/RobloxStudio21.jpg">
 
-Замість того коду, що є в цьому блоку за замовчуванням (`print("Hello world!")`) додамо код отримання балів в залежності від кольору блоку.
+En lugar del código que está en este bloque por defecto (`print("Hello world!")`), agregaremos un código para obtener puntos según el color del bloque
 ```lua
 local pointPart = script.Parent
 
@@ -190,11 +190,11 @@ while true do
 end
 ```
 <img src = "img/RobloxStudio22.jpg">
-Здублюйте блок (нажав на нього правою клавішею миші та обрав пункт Duplicate)
+Duplique el bloque (haciendo clic con el botón derecho del ratón y seleccionando 'Duplicate')
 <img src = "img/RobloxStudio23.jpg">
-перемістість здубльований блок 
+Mueva el bloque duplicado 
 <img src = "img/duplicate.gif">
-Повторіть три рази.
+Repite tres veces
 
-## Запустіть код для отримання результату 
+## Ejecuta el código para obtener el resultado 
 <img src = "img/result.gif">

@@ -1,22 +1,22 @@
-# GameDev - підготовка до пробного заняття.
-## 1. Почніть працювати з Roblox Studio
-Зайдіть за адресою <a href = "https://www.roblox.com/create" target = "_blank">https://www.roblox.com/create</a>  
+# Roblox - Preparación de una clase de prueba.
+## 1. Empieza con Roblox Studio
+Vayan a <a href = "https://www.roblox.com/create" target = "_blank">https://www.roblox.com/create</a>  
 <a href = "https://www.roblox.com/create" target = "_blank"><img src = './img/2.jpg'></a>  
-Натисніть кнопку **"Start creating"**
+Haga clic en el botón **Start Creating**.
 
-## 2. Скачайте установщик
-У вікні, що відчинеться - нажміть "Download Studio"  
+## 2. Descargar el instalador
+En la ventana que se abre, haz clic en "Download Studio".  
 <img src = './img/4.jpg'>
 
-## 3. Запустіть установщик
-Запустіть програму, що скачалося:   
+## 3. Ejecutar el instalador
+Inicie la aplicación descargada:   
 <img src = './img/5.jpg'>
 
-## 4. Дайте всі необхідні дозволи
+## 4. Obtener todos los permisos necesarios
 <img src = './img/6.jpg'>
 
-## 5. Зачекайте доки Roblox Studio встановиться
+## 5. Echa un vistazo a las bases de Roblox Studio para ponerte manos a la obra.
 <img src = './img/7.jpg'>
 
-## 6. Ви готові до заняття!
+## 6. ¡Estás listo para la clase!
 <img src = './img/8.jpg'>
